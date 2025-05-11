@@ -21,6 +21,16 @@ dependencies {
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'io.rest-assured:rest-assured:5.2.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'io.rest-assured:json-path:5.2.1'
+    implementation 'io.rest-assured:json-schema-validator:5.2.1'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    implementation 'org.wiremock:wiremock:3.9.2'
+    implementation 'com.zaxxer:HikariCP:5.0.1'
+    implementation 'org.xerial:sqlite-jdbc:3.43.2.1'
 }
 
 test {
