@@ -1,0 +1,12 @@
+{
+  "id": "12345",
+  "name": "name",
+  "updatedAt": "datetime",
+  "data": {
+    "year": 2000,
+    "price": 1000.00,
+    "CPU model": "Intel",
+    "Hard disk size": "5 TB",
+    "color": "black"
+  }
+}
